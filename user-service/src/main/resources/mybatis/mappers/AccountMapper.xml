@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.movie.pncinema.us.dao.AccountMapper">
+	<resultMap type="com.movie.pncinema.user.api.entity.po.AccountPO" id="account">
+		<id property="id" column="ID"/>
+		<result property="tel" column="TEL"/>
+		<result property="password" column="PASSWORD"/>
+		<result property="privateKey" column="PRIVATE_KEY"/>
+		<result property="email" column="EMAIL"/>
+		<result property="lastLoginTime" column="LAST_LOGIN_TIME" jdbcType="TIMESTAMP"/>
+		<result property="loginTime" column="LOGIN_TIME" jdbcType="TIMESTAMP"/>
+	</resultMap>
+	<select id="list" resultMap="account">
+		SELECT * FROM ACCOUNT
+	</select>
+</mapper>
