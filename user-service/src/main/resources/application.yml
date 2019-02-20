@@ -1,25 +1,0 @@
-server:  port: 8081eureka:  client:    service-url:      default-zone: http://localhost:8761/eureka
-spring:
-  application:
-    name: service-user
-  datasource:    druid:      primary:        type: com.alibaba.druid.pool.DruidDataSource
-        driver-class-name: com.mysql.jdbc.Driver
-        jdbc-url: jdbc:mysql://localhost:3306/pncinema?useUnicode=true&charaterEncoding=UTF-8
-        username: root
-        password: kq0r8RIgixNICNByVI89xL+DNf77oXGS02FdFUmKRYsGIRRRTZ6QkxjfFuMLiiNOVmDUwhfJoJtvZ38c2dGycA==#        password: root
-        initial-size: 10
-        min-idle: 5
-        max-active: 20
-        time-between-eviction-runs-millis: 60000
-        min-evictable-idle-time-millis: 300000
-        validation-query: SELECT 1 FROM DUAL
-        test-while-idle: true
-        test-on-borrow: false
-        test-on-return: false
-        pool-prepared-statement: true
-        max-pool-prepared-statement-per-connection-size: 30
-        use-global-datasource-stat: true        filters: stat,wall,log4j
-        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500;druid.decrypt=true;druid.decrypt.key=${public-key}#        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500        public-key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJ+g9Px1a/iO8RFlEIxRh6LP+3yqJrJR1trEhbocP1XnCTBO1yjZJsQTYLoHrRDXA74JUKl97c6H0bgWnfwF37MCAwEAAQ==        filter:          config:            enabled: true
-
-mybatis:  mapper-locations: classpath:mybatis/mappers/*.xml
-  configuration:    map-underscore-to-camel-case: true
