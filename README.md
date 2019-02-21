@@ -96,6 +96,9 @@ iOS和Java-RSA加密：https://blog.csdn.net/chaijunkun/article/details/7275632
 
 微信登录官方文档：https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419317851&token=&lang=zh_CN
 
+即时通讯：socket
+消息队列：RabbitMQ,ActiveMQ,Kafka,Redis(推送消息)
+
 #### 扩展功能
 1、电影推荐系统(参照Netflix的电影推荐算法)
 
