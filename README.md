@@ -7,7 +7,7 @@
 - P1nov's [GitHub](https://github.com/P1nov) - iOS Engineer - :e-mail::[1473781785@qq.com](mailto:1473781785@qq.com)
 - BigMonkeyboard's [GitHub](https://github.com/BigMonkeyboard) 
 - Wosyou's [GitHub](https://github.com/Wosyou) 
-- Wosyou's [GitHub](https://github.com/Wosyou) 
+- chygogo's [GitHub](https://github.com/chygogo) 
 
 ## 资源链接
 
