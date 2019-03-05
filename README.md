@@ -1,3 +1,6 @@
+# 电影售票APP
+![GitHub](https://img.shields.io/github/license/rayyq/PNCinema.svg?color=important&label=License&style=popout-square)
+
 ## 资源链接
 
 猫眼电影APP改版设计：https://www.zcool.com.cn/work/ZMjU5MTU3Mjg=.html
