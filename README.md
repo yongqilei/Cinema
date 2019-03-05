@@ -1,5 +1,6 @@
 # 电影售票APP
 ![GitHub](https://img.shields.io/github/license/rayyq/PNCinema.svg?color=important&label=License&style=popout-square)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
 ## 资源链接
 
