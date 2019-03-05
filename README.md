@@ -1,6 +1,7 @@
 # Cinema APP
 [![GitHub](https://img.shields.io/github/license/rayyq/PNCinema.svg?color=important&label=License&style=popout)](https://github.com/rayyq/Cinema/blob/master/LICENSE)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/rayyq/Cinema) 
+> 仅供学习和参考
 
 ## Contributors
 - rayyq's [GitHub](https://github.com/rayyq) 
