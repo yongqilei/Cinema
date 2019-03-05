@@ -1,6 +1,13 @@
 # Cinema APP
 [![GitHub](https://img.shields.io/github/license/rayyq/PNCinema.svg?color=important&label=License&style=popout)](https://github.com/rayyq/Cinema/blob/master/LICENSE)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/rayyq/Cinema)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/rayyq/Cinema) 
+
+## Contributors
+- rayyq's [GitHub](https://github.com/rayyq) 
+- P1nov's [GitHub](https://github.com/P1nov) - iOS Engineer - :e-mail::[1473781785@qq.com](mailto:1473781785@qq.com)
+- BigMonkeyboard's [GitHub](https://github.com/BigMonkeyboard) 
+- Wosyou's [GitHub](https://github.com/Wosyou) 
+- Wosyou's [GitHub](https://github.com/Wosyou) 
 
 ## 资源链接
 
