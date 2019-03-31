@@ -17,8 +17,8 @@ public class LoginController {
 	private LoginService loginService;
 	
 	@GetMapping("/user/api/list")
-	public JsonResponse<List<AccountPO>> list(){
-		JsonResponse<List<AccountPO>> result = new JsonResponse<>();
+	public ResponseEntity<List<AccountPO>> list(){
+		JsonResponse<List<AccountPO>> result = new JsonResponse<List<AccountPO>>();
 		List<AccountPO> list = loginService.list();
 		result.setCode(200);
 		result.setMessage("OK");
