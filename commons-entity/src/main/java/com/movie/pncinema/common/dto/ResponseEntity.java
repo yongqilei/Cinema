@@ -6,7 +6,7 @@ package com.movie.pncinema.common.dto;
  *
  * @param <T> 泛型
  */
-public class JsonResponse<T> extends BaseDto {
+public class ResponseEntity<T> extends BaseDto {
 	
 	private T data;
 
