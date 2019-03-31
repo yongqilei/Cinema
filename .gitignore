@@ -8,3 +8,5 @@
 .git
 .project
 /.settings*
+*/*.iml
+*.iml
