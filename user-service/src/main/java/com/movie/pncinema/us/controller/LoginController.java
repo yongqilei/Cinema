@@ -13,17 +13,17 @@ import com.movie.pncinema.user.api.service.LoginService;
 @RestController
 public class LoginController {
 
-	@Autowired
-	private LoginService loginService;
-	
-	@GetMapping("/user/api/list")
-	public ResponseEntity<List<AccountPO>> list(){
-		ResponseEntity<List<AccountPO>> result = new ResponseEntity<List<AccountPO>>();
-		List<AccountPO> list = loginService.list();
-		result.setCode(200);
-		result.setMessage("OK");
-		result.setData(list);
-		return result;
-	}
-	
+    @Autowired
+    private LoginService loginService;
+
+    @GetMapping("/user/api/list")
+    public ResponseEntity<List<AccountPO>> list() {
+        ResponseEntity<List<AccountPO>> result = new ResponseEntity<List<AccountPO>>();
+        List<AccountPO> list = loginService.list();
+        result.setCode(200);
+        result.setMessage("OK");
+        result.setData(list);
+        return result;
+    }
+
 }

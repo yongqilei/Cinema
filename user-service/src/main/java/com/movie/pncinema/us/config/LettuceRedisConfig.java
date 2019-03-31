@@ -30,55 +30,55 @@ import redis.clients.jedis.JedisCluster;
 @Configuration
 public class LettuceRedisConfig {
 	
-	@Autowired
-	private RedisProperties redisProperties;
-	
-	@Autowired
-	private Pool poolProperties;
-	
-	@Bean
-	public LettuceConnectionFactory lettuceConnectionFactory(GenericObjectPoolConfig genericObjectPoolConfig) {
-		// 单机配置
-//		RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
-//		redisStandaloneConfiguration.setDatabase(redisProperties.getDatabase());
-//		redisStandaloneConfiguration.setHostName(redisProperties.getHost());
-//		redisStandaloneConfiguration.setPort(redisProperties.getPort());
-//		redisStandaloneConfiguration.setPassword(RedisPassword.of(redisProperties.getPassword()));
-		// 集群配置
-		RedisClusterConfiguration redisClusterConfiguration = new RedisClusterConfiguration();
-		List<String> servers = redisProperties.getCluster().getNodes();
-		Set<RedisNode> nodes = new HashSet<>();
-		for(String ipAddress : servers) {
-			String[] ipAndPort = ipAddress.split(":");
-			nodes.add(new RedisNode(ipAndPort[0].trim(), Integer.valueOf(ipAndPort[1])));
-		}
-		redisClusterConfiguration.setClusterNodes(nodes);
-		redisClusterConfiguration.setMaxRedirects(redisProperties.getCluster().getMaxRedirects());
-		
-		LettuceClientConfiguration clientConfig = LettucePoolingClientConfiguration.builder()
-				.commandTimeout(redisProperties.getTimeout())
-				.poolConfig(genericObjectPoolConfig)
-				.build();
-		
-		if(redisProperties.isSsl()) {
-			clientConfig.isUseSsl();
-		}
-		
-		LettuceConnectionFactory factory = new LettuceConnectionFactory(redisClusterConfiguration, clientConfig);
-		
-		return factory;
-	}
-	
-	@Bean
-	public GenericObjectPoolConfig genericObjectPoolConfig() {
-		GenericObjectPoolConfig config = new GenericObjectPoolConfig();
-		config.setMaxTotal(poolProperties.getMaxActive());
-		config.setMaxIdle(poolProperties.getMaxIdle());
-		config.setMinIdle(poolProperties.getMinIdle());
-		config.setMaxWaitMillis(poolProperties.getMaxWait().toMillis());
-		
-		return config;
-	}
+//	@Autowired
+//	private RedisProperties redisProperties;
+//
+//	@Autowired
+//	private Pool pool;
+//
+//	@Bean
+//	public LettuceConnectionFactory lettuceConnectionFactory(GenericObjectPoolConfig genericObjectPoolConfig) {
+//		// 单机配置
+////		RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
+////		redisStandaloneConfiguration.setDatabase(redisProperties.getDatabase());
+////		redisStandaloneConfiguration.setHostName(redisProperties.getHost());
+////		redisStandaloneConfiguration.setPort(redisProperties.getPort());
+////		redisStandaloneConfiguration.setPassword(RedisPassword.of(redisProperties.getPassword()));
+//		// 集群配置
+//		RedisClusterConfiguration redisClusterConfiguration = new RedisClusterConfiguration();
+//		List<String> servers = redisProperties.getCluster().getNodes();
+//		Set<RedisNode> nodes = new HashSet<>();
+//		for(String ipAddress : servers) {
+//			String[] ipAndPort = ipAddress.split(":");
+//			nodes.add(new RedisNode(ipAndPort[0].trim(), Integer.valueOf(ipAndPort[1])));
+//		}
+//		redisClusterConfiguration.setClusterNodes(nodes);
+//		redisClusterConfiguration.setMaxRedirects(redisProperties.getCluster().getMaxRedirects());
+//
+//		LettuceClientConfiguration clientConfig = LettucePoolingClientConfiguration.builder()
+//				.commandTimeout(redisProperties.getTimeout())
+//				.poolConfig(genericObjectPoolConfig)
+//				.build();
+//
+//		if(redisProperties.isSsl()) {
+//			clientConfig.isUseSsl();
+//		}
+//
+//		LettuceConnectionFactory factory = new LettuceConnectionFactory(redisClusterConfiguration, clientConfig);
+//
+//		return factory;
+//	}
+//
+//	@Bean
+//	public GenericObjectPoolConfig genericObjectPoolConfig() {
+//		GenericObjectPoolConfig config = new GenericObjectPoolConfig();
+//		config.setMaxTotal(pool.getMaxActive());
+//		config.setMaxIdle(pool.getMaxIdle());
+//		config.setMinIdle(pool.getMinIdle());
+//		config.setMaxWaitMillis(pool.getMaxWait().toMillis());
+//
+//		return config;
+//	}
 	
 	@Bean
 	public RedisTemplate<String, Object> redisTemplate(LettuceConnectionFactory lettuceConnectionFactory) {
