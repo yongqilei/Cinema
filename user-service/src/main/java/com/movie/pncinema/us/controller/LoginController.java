@@ -1,10 +1,11 @@
 package com.movie.pncinema.us.controller;
 
+import java.io.IOException;
 import java.util.List;
 
+import com.movie.pncinema.utils.captcha.CaptchaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.movie.pncinema.common.dto.ResponseEntity;
 import com.movie.pncinema.user.api.entity.po.AccountPO;
@@ -25,5 +26,13 @@ public class LoginController {
         result.setData(list);
         return result;
     }
+
+//    @PostMapping("/login")
+//    public ResponseEntity<Object> login(@RequestParam("username") String username, @RequestParam("password") String password, HttpServletRequest request) {
+//        request.getRequestedSessionId();
+//
+//    }
+
+
 
 }
