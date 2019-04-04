@@ -9,6 +9,6 @@ import com.movie.pncinema.user.api.entity.po.AccountPO;
 
 public interface AccountMapper {
 
-	public List<AccountPO> list();
+	List<AccountPO> list();
 	
 }

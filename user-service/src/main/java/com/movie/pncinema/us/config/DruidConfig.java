@@ -4,6 +4,7 @@ import javax.servlet.Filter;
 import javax.servlet.Servlet;
 import javax.sql.DataSource;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -34,7 +35,7 @@ public class DruidConfig {
 	@ConfigurationProperties(prefix = "spring.datasource.druid.primary")
 	@Bean
 	public DataSource primaryDataSourcce() {
-		return DataSourceBuilder.create().build();
+		return DataSourceBuilder.create().type(DruidDataSource.class).build();
 	}
 	
 	@Bean
