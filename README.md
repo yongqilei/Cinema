@@ -1,7 +1,8 @@
 # Cinema APP
 [![GitHub](https://img.shields.io/github/license/rayyq/PNCinema.svg?color=important&label=License&style=popout)](https://github.com/rayyq/Cinema/blob/master/LICENSE)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/rayyq/Cinema) 
-> ½ö¹©Ñ§Ï°ºÍ²Î¿¼
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+> ä»…ä¾›å­¦ä¹ å’Œå‚è€ƒ
 
 ## Contributors
 - rayyq's [GitHub](https://github.com/rayyq) 
@@ -10,116 +11,116 @@
 - Wosyou's [GitHub](https://github.com/Wosyou) 
 - chygogo's [GitHub](https://github.com/chygogo) 
 
-## ×ÊÔ´Á´½Ó
+## èµ„æºé“¾æ¥
 
-Ã¨ÑÛµçÓ°APP¸Ä°æÉè¼Æ£ºhttps://www.zcool.com.cn/work/ZMjU5MTU3Mjg=.html
+çŒ«çœ¼ç”µå½±APPæ”¹ç‰ˆè®¾è®¡ï¼šhttps://www.zcool.com.cn/work/ZMjU5MTU3Mjg=.html
 
-Ó°ÔºAPP¿ª·¢µÄ»ù±¾¹¦ÄÜ£ºhttp://www.adinnet.cn/bloginfo/2018_02/blog_3437.html
+å½±é™¢APPå¼€å‘çš„åŸºæœ¬åŠŸèƒ½ï¼šhttp://www.adinnet.cn/bloginfo/2018_02/blog_3437.html
 
-Ã¨ÑÛµçÓ°Ñ¡×ùÄ£·Â(°üº¬Âäµ¥×ùÎ»ÏŞÖÆ)£ºhttps://github.com/z624821876/YSSeatsPicker
+çŒ«çœ¼ç”µå½±é€‰åº§æ¨¡ä»¿(åŒ…å«è½å•åº§ä½é™åˆ¶)ï¼šhttps://github.com/z624821876/YSSeatsPicker
 
-Ó°ÔºÑ¡×ùËã·¨-ÏŞÖÆµ¥¶À×ùÎ»£ºhttps://www.cnblogs.com/v-jing/p/4180129.html
+å½±é™¢é€‰åº§ç®—æ³•-é™åˆ¶å•ç‹¬åº§ä½ï¼šhttps://www.cnblogs.com/v-jing/p/4180129.html
 
-## ½çÃæÉè¼Æ(´óÖÂ)
+## ç•Œé¢è®¾è®¡(å¤§è‡´)
 
-### 1¡¢Ä£·Â¸÷´óÓ°ÔºÊÛÆ±APP½çÃæÉè¼Æ¡£<br/>
-Ö÷ÒªÒ»ÏÂ¼¸¸öÓ°ÔºÊÛÆ±APP¡£
+### 1ã€æ¨¡ä»¿å„å¤§å½±é™¢å”®ç¥¨APPç•Œé¢è®¾è®¡ã€‚<br/>
+ä¸»è¦ä¸€ä¸‹å‡ ä¸ªå½±é™¢å”®ç¥¨APPã€‚
 
-Ó°ÔºÉè¼Æ£ºhttps://www.uisdc.com/design-elements-of-cinema-app
+å½±é™¢è®¾è®¡ï¼šhttps://www.uisdc.com/design-elements-of-cinema-app
 
 https://www.ui.cn/detail/328165.html
 
-ÌÔÆ±Æ±UIÉè¼Æ£º<br/>
+æ·˜ç¥¨ç¥¨UIè®¾è®¡ï¼š<br/>
 https://www.zcool.com.cn/work/ZMTgyMTg2NzY=.html<br/>
 https://www.zcool.com.cn/work/ZMjE5MTUyNzY=.html<br/>
 
-Ã¨ÑÛµçÓ°APP£ºhttps://www.zcool.com.cn/work/ZMjU5MTU3Mjg=.html<br/>
+çŒ«çœ¼ç”µå½±APPï¼šhttps://www.zcool.com.cn/work/ZMjU5MTU3Mjg=.html<br/>
 
-»ùÓÚÔ­ÉúĞ¡³ÌĞò¾«·ÂµÄÃ¨ÑÛµçÓ°£ºhttps://blog.csdn.net/qq_37860930/article/details/83473562
+åŸºäºåŸç”Ÿå°ç¨‹åºç²¾ä»¿çš„çŒ«çœ¼ç”µå½±ï¼šhttps://blog.csdn.net/qq_37860930/article/details/83473562
 
-IconµÄÍ¼ÎÒÔÙÏë°ì·¨¸ãÒ»¸ã
+Iconçš„å›¾æˆ‘å†æƒ³åŠæ³•æä¸€æ
 
-### Êı¾İ¿âÉè¼Æ
+### æ•°æ®åº“è®¾è®¡
 
-ÓÃ»§±íÉè¼Æ£ºhttps://blog.6ag.cn/1619.html || https://blog.csdn.net/weixin_37878702/article/details/78350271
+ç”¨æˆ·è¡¨è®¾è®¡ï¼šhttps://blog.6ag.cn/1619.html || https://blog.csdn.net/weixin_37878702/article/details/78350271
 
-Ó°ÔºAPPÊı¾İ¿âÉè¼Æ£ºhttps://blog.csdn.net/chenzr9527/article/details/70199204 (¹©²Î¿¼£¬APPÓ¦Éè¼Æ¸ü¸´ÔÓ)
+å½±é™¢APPæ•°æ®åº“è®¾è®¡ï¼šhttps://blog.csdn.net/chenzr9527/article/details/70199204 (ä¾›å‚è€ƒï¼ŒAPPåº”è®¾è®¡æ›´å¤æ‚)
 
 ### API
 
-³ÇÊĞÁĞ±í½Ó¿Ú£ºhttps://maoyan.com/ajax/cities
+åŸå¸‚åˆ—è¡¨æ¥å£ï¼šhttps://maoyan.com/ajax/cities
 
-¿ª·¢ÕßAPI×ÊÔ´£ºhttps://blog.csdn.net/hengqiaqia/article/details/84061831
+å¼€å‘è€…APIèµ„æºï¼šhttps://blog.csdn.net/hengqiaqia/article/details/84061831
 
-ÌÔÆ±Æ±µçÓ°Æ±API£ºhttps://developer.alibaba.com/docs/api.htm?spm=a219a.7395905.0.0.554075feFrYvkY&apiId=24474
+æ·˜ç¥¨ç¥¨ç”µå½±ç¥¨APIï¼šhttps://developer.alibaba.com/docs/api.htm?spm=a219a.7395905.0.0.554075feFrYvkY&apiId=24474
 
-¿ÉÒÔ¸ù¾İÌÔÆ±Æ±Ìá¹©µÄ¸÷¸öAPIµÄ·µ»ØÖµÀ´Éè¼ÆÊı¾İ¿â£¡
+å¯ä»¥æ ¹æ®æ·˜ç¥¨ç¥¨æä¾›çš„å„ä¸ªAPIçš„è¿”å›å€¼æ¥è®¾è®¡æ•°æ®åº“ï¼
 
-### ÃÜÂë°²È«
-¼ÓÃÜËã·¨(¶Ô³Æ£¬·Ç¶Ô³Æ)£ºhttps://github.com/yidao620c/thinking-java/tree/master/src/main/java/ch02utils/crypto
+### å¯†ç å®‰å…¨
+åŠ å¯†ç®—æ³•(å¯¹ç§°ï¼Œéå¯¹ç§°)ï¼šhttps://github.com/yidao620c/thinking-java/tree/master/src/main/java/ch02utils/crypto
 
-JavaµÄMD5¼ÓÃÜÓëRSA¼ÓÃÜ£ºhttps://cloud.tencent.com/developer/article/1128214
---- (RSA¼ÓÃÜ½Ï°²È«£¡)
+Javaçš„MD5åŠ å¯†ä¸RSAåŠ å¯†ï¼šhttps://cloud.tencent.com/developer/article/1128214
+--- (RSAåŠ å¯†è¾ƒå®‰å…¨ï¼)
 
-RSA¼ÓÃÜÊµÀı£ºhttps://blog.csdn.net/qing101hua/article/details/44932457 --- ÓÃ»§ÃÜÂëÊ¹ÓÃRSA¼ÓÃÜ¿Í»§¶Ë±£´æ¹«Ô¿£¬·şÎñ¶Ë±£´æ¶ÔÓ¦µÄË½Ô¿(¿¼ÂÇ·şÎñ¶ËÓÃÊ²Ã´·½Ê½±£´æ£¬ÓÃMySQL»¹ÊÇRedis»òÆäËû¸üºÃµÄ·½·¨£¬Redis:key(ÓÃ»§Ãû)-value(Ë½Ô¿)£¬MySQL:´´½¨±í£¬×Ö¶ÎÎªUSERNAME,PRIVATE_KEY,EXPIRE_TIME,GENERATE_TIME[ÓÃÓÃ»§ÃûÀ´²éÑ¯Ë½Ô¿])
+RSAåŠ å¯†å®ä¾‹ï¼šhttps://blog.csdn.net/qing101hua/article/details/44932457 --- ç”¨æˆ·å¯†ç ä½¿ç”¨RSAåŠ å¯†å®¢æˆ·ç«¯ä¿å­˜å…¬é’¥ï¼ŒæœåŠ¡ç«¯ä¿å­˜å¯¹åº”çš„ç§é’¥(è€ƒè™‘æœåŠ¡ç«¯ç”¨ä»€ä¹ˆæ–¹å¼ä¿å­˜ï¼Œç”¨MySQLè¿˜æ˜¯Redisæˆ–å…¶ä»–æ›´å¥½çš„æ–¹æ³•ï¼ŒRedis:key(ç”¨æˆ·å)-value(ç§é’¥)ï¼ŒMySQL:åˆ›å»ºè¡¨ï¼Œå­—æ®µä¸ºUSERNAME,PRIVATE_KEY,EXPIRE_TIME,GENERATE_TIME[ç”¨ç”¨æˆ·åæ¥æŸ¥è¯¢ç§é’¥])
 
-DruidµÄConfigToolsÖĞ¹«Ô¿Ë½Ô¿¼ÓÃÜ£ºhttps://github.com/alibaba/druid/blob/master/src/main/java/com/alibaba/druid/filter/config/ConfigTools.java
+Druidçš„ConfigToolsä¸­å…¬é’¥ç§é’¥åŠ å¯†ï¼šhttps://github.com/alibaba/druid/blob/master/src/main/java/com/alibaba/druid/filter/config/ConfigTools.java
 
-×¢²áµÄÊ±ºòÓÃÉú³ÉµÄ¹«Ô¿¼ÓÃÜÊäÈëµÄÃÜÂëÖ®ºóÔÙ½«Æä´æÈëÊı¾İ¿â£¬Ã¿´ÎµÇÂ¼Ê±ÓÃË½Ô¿½âÃÜÖ®ºóÔÙ±È½Ï¡£
+æ³¨å†Œçš„æ—¶å€™ç”¨ç”Ÿæˆçš„å…¬é’¥åŠ å¯†è¾“å…¥çš„å¯†ç ä¹‹åå†å°†å…¶å­˜å…¥æ•°æ®åº“ï¼Œæ¯æ¬¡ç™»å½•æ—¶ç”¨ç§é’¥è§£å¯†ä¹‹åå†æ¯”è¾ƒã€‚
 
-Êı¾İ¿âÖĞuser(µÇÂ¼ĞÅÏ¢)±íÖĞ¼ÓÒ»¸öµÇÂ¼ÀàĞÍµÄ×Ö¶Î(ÕËºÅÃÜÂëµÇÂ¼£º0£¬ÊÖ»úºÅµÇÂ¼£º1£¬Î¢ĞÅµÇÂ¼£º2£¬QQµÇÂ¼£º3£¬Î¢²©µÇÂ¼£º4 ....)
+æ•°æ®åº“ä¸­user(ç™»å½•ä¿¡æ¯)è¡¨ä¸­åŠ ä¸€ä¸ªç™»å½•ç±»å‹çš„å­—æ®µ(è´¦å·å¯†ç ç™»å½•ï¼š0ï¼Œæ‰‹æœºå·ç™»å½•ï¼š1ï¼Œå¾®ä¿¡ç™»å½•ï¼š2ï¼ŒQQç™»å½•ï¼š3ï¼Œå¾®åšç™»å½•ï¼š4 ....)
 
-### ÏëÒªÓ¦ÓÃµÄ¼¼Êõ
+### æƒ³è¦åº”ç”¨çš„æŠ€æœ¯
 
-Spring Boot 2,Redis,Spring Cloud(ÄÜÓ¦ÓÃ¾ÍÓ¦ÓÃÉÏ),Docker,Zookeepr or Eureka,ÏûÏ¢¶ÓÁĞRabbit MQ or Kafka...
+Spring Boot 2,Redis,Spring Cloud(èƒ½åº”ç”¨å°±åº”ç”¨ä¸Š),Docker,Zookeepr or Eureka,æ¶ˆæ¯é˜Ÿåˆ—Rabbit MQ or Kafka...
 
-### ¼«ÑéÑéÖ¤
+### æéªŒéªŒè¯
 
-¼«ÑéÑéÖ¤Demo£ºhttps://github.com/GeeTeam/gtapp-ios-oc
+æéªŒéªŒè¯Demoï¼šhttps://github.com/GeeTeam/gtapp-ios-oc
 
-GeeTest¹ÙÍø£ºhttp://www.geetest.com/
+GeeTestå®˜ç½‘ï¼šhttp://www.geetest.com/
 
-### JavaĞÂÌØĞÔ
+### Javaæ–°ç‰¹æ€§
 
-Java 8 ĞÂÌØĞÔ£ºhttps://www.ibm.com/developerworks/cn/java/j-lo-jdk8newfeature/index.html
+Java 8 æ–°ç‰¹æ€§ï¼šhttps://www.ibm.com/developerworks/cn/java/j-lo-jdk8newfeature/index.html
 
-Java 9 ĞÂÌØĞÔ£ºhttps://www.ibm.com/developerworks/cn/java/the-new-features-of-Java-9/index.html
+Java 9 æ–°ç‰¹æ€§ï¼šhttps://www.ibm.com/developerworks/cn/java/the-new-features-of-Java-9/index.html
 
-Java 10 ĞÂÌØĞÔ£ºhttps://www.ibm.com/developerworks/cn/java/the-new-features-of-Java-10/index.html
+Java 10 æ–°ç‰¹æ€§ï¼šhttps://www.ibm.com/developerworks/cn/java/the-new-features-of-Java-10/index.html
 
-## ÏîÄ¿¼¼Êõ
-### ÏîÄ¿½á¹¹´ó¸Ù
+## é¡¹ç›®æŠ€æœ¯
+### é¡¹ç›®ç»“æ„å¤§çº²
 
-### ¼¼Êõ´ó¸Ù
-Ôİ¶¨£ºSpring Boot 2.0£¬Spring AOP/ZuulÍø¹ØFilter ×öµÇÂ¼ÅĞ¶Ï(accessTokenºÍrefreshToken)ºÍ·ÃÎÊÊÚÈ¨ÅĞ¶Ï£¬Druid£¬Mybatis£¬Redis£¬Log4j(ÈÕÖ¾ÏµÍ³)£¬(Spring Cloud + Eureka/Zookeeper)/(Dubbo + Zookeeper)
+### æŠ€æœ¯å¤§çº²
+æš‚å®šï¼šSpring Boot 2.0ï¼ŒSpring AOP/Zuulç½‘å…³Filter åšç™»å½•åˆ¤æ–­(accessTokenå’ŒrefreshToken)å’Œè®¿é—®æˆæƒåˆ¤æ–­ï¼ŒDruidï¼ŒMybatisï¼ŒRedisï¼ŒLog4j(æ—¥å¿—ç³»ç»Ÿ)ï¼Œ(Spring Cloud + Eureka/Zookeeper)/(Dubbo + Zookeeper)
 
-### ´óÖÂ¹¦ÄÜ
-mybatis-plus¶¯Ì¬Êı¾İÔ´£ºhttps://gitee.com/baomidou/dynamic-datasource-spring-boot-starter/wikis/pages
+### å¤§è‡´åŠŸèƒ½
+mybatis-plusåŠ¨æ€æ•°æ®æºï¼šhttps://gitee.com/baomidou/dynamic-datasource-spring-boot-starter/wikis/pages
 
-Centos7ÖĞÅäÖÃMySQL5.7Ö÷´Ó¸´ÖÆ£ºhttps://blog.csdn.net/vbirdbest/article/details/83153417
+Centos7ä¸­é…ç½®MySQL5.7ä¸»ä»å¤åˆ¶ï¼šhttps://blog.csdn.net/vbirdbest/article/details/83153417
 
-Spring Boot ¼¯³ÉMybatisÊµÏÖÖ÷´Ó£¨¶àÊı¾İÔ´£©·ÖÀë·½°¸£ºhttps://www.jianshu.com/p/8813ec02926a
-#### »ù±¾¹¦ÄÜ
-1¡¢ÓÃ»§µÇÂ½(µÚÈı·½µÇÂ¼-Î¢ĞÅ)
+Spring Boot é›†æˆMybatiså®ç°ä¸»ä»ï¼ˆå¤šæ•°æ®æºï¼‰åˆ†ç¦»æ–¹æ¡ˆï¼šhttps://www.jianshu.com/p/8813ec02926a
+#### åŸºæœ¬åŠŸèƒ½
+1ã€ç”¨æˆ·ç™»é™†(ç¬¬ä¸‰æ–¹ç™»å½•-å¾®ä¿¡)
 
-iOSºÍJava-RSA¼ÓÃÜ£ºhttps://blog.csdn.net/chaijunkun/article/details/7275632
+iOSå’ŒJava-RSAåŠ å¯†ï¼šhttps://blog.csdn.net/chaijunkun/article/details/7275632
 
-Î¢ĞÅµÇÂ¼£ºhttps://blog.csdn.net/u014635337/article/details/78966708
+å¾®ä¿¡ç™»å½•ï¼šhttps://blog.csdn.net/u014635337/article/details/78966708
 
-Î¢ĞÅµÇÂ¼¹Ù·½ÎÄµµ£ºhttps://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419317851&token=&lang=zh_CN
+å¾®ä¿¡ç™»å½•å®˜æ–¹æ–‡æ¡£ï¼šhttps://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419317851&token=&lang=zh_CN
 
-¼´Ê±Í¨Ñ¶£ºsocket
-ÏûÏ¢¶ÓÁĞ£ºRabbitMQ,ActiveMQ,Kafka,Redis(ÍÆËÍÏûÏ¢)
+å³æ—¶é€šè®¯ï¼šsocket
+æ¶ˆæ¯é˜Ÿåˆ—ï¼šRabbitMQ,ActiveMQ,Kafka,Redis(æ¨é€æ¶ˆæ¯)
 
-Shiro°²È«¿ò¼ÜÓ¦ÓÃ£ºhttps://www.sojson.com/shiro
+Shiroå®‰å…¨æ¡†æ¶åº”ç”¨ï¼šhttps://www.sojson.com/shiro
 
-#### À©Õ¹¹¦ÄÜ
-1¡¢µçÓ°ÍÆ¼öÏµÍ³(²ÎÕÕNetflixµÄµçÓ°ÍÆ¼öËã·¨)
+#### æ‰©å±•åŠŸèƒ½
+1ã€ç”µå½±æ¨èç³»ç»Ÿ(å‚ç…§Netflixçš„ç”µå½±æ¨èç®—æ³•)
 
-ÍÆ¼öËã·¨·ÖÀà£ºa.°´ÕÕÊı¾İÊ¹ÓÃ»®·Ö£»b.°´ÕÕÄ£ĞÍ»®·Ö
+æ¨èç®—æ³•åˆ†ç±»ï¼ša.æŒ‰ç…§æ•°æ®ä½¿ç”¨åˆ’åˆ†ï¼›b.æŒ‰ç…§æ¨¡å‹åˆ’åˆ†
 
-Ğ­Í¬¹ıÂËËã·¨£ºUserCF(»ùÓÚÓÃ»§)£¬ItemCF(»ùÓÚÎïÆ·)£¬ModelCF(»ùÓÚÄ£ĞÍ)
+ååŒè¿‡æ»¤ç®—æ³•ï¼šUserCF(åŸºäºç”¨æˆ·)ï¼ŒItemCF(åŸºäºç‰©å“)ï¼ŒModelCF(åŸºäºæ¨¡å‹)
 
-Hadoop¹¹½¨µçÓ°ÍÆ¼öÏµÍ³£ºhttp://blog.fens.me/hadoop-mapreduce-recommend/
+Hadoopæ„å»ºç”µå½±æ¨èç³»ç»Ÿï¼šhttp://blog.fens.me/hadoop-mapreduce-recommend/
 
-MahoutÍÆ¼öËã·¨APIÏê½â£ºhttp://blog.fens.me/mahout-recommendation-api/
+Mahoutæ¨èç®—æ³•APIè¯¦è§£ï¼šhttp://blog.fens.me/mahout-recommendation-api/
