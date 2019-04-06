@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 import com.movie.pncinema.utils.captcha.Captcha;
 import com.movie.pncinema.utils.captcha.GifCaptcha;
 import com.movie.pncinema.utils.captcha.SpecCaptcha;
+import com.movie.pncinema.utils.redis.RedisTemplateUtils;
 
 /**
  * 图形验证码工具类
@@ -201,12 +202,13 @@ public class CaptchaUtil {
         App中这样设置（暂时）
          */
         // 修改代码 - 直接创建一个新的session，用来存放验证码
-        HttpSession session = request.getSession(true);
-        // 存放验证码的session设置两分钟过期时间
-        session.setMaxInactiveInterval(2 * 60);
-        // 将sessionId设置到response头中
-        response.addHeader("sessionId", session.getId());
-        session.setAttribute(SESSION_KEY, captcha.text().toLowerCase());
+//        HttpSession session = request.getSession(true);
+//        // 存放验证码的session设置两分钟过期时间
+//        session.setMaxInactiveInterval(2 * 60);
+//        // 将sessionId设置到response头中
+//        response.addHeader("sessionId", session.getId());
+//        session.setAttribute(SESSION_KEY, captcha.text().toLowerCase());
+        RedisTemplateUtils.set("verifyCode", captcha.text().toLowerCase(), 2 * 60L);
         captcha.out(response.getOutputStream());
     }
 
