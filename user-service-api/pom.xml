@@ -6,4 +6,5 @@
     <version>${project.version}</version>
   </parent>
   <artifactId>user-service-api</artifactId>
+
 </project>
