@@ -4,17 +4,16 @@ package com.movie.pncinema.common.dto;
  * 接口统一返回对象实体类
  * @author leiyongqi
  *
- * @param <T> 泛型
  */
-public class ResponseEntity<T> extends BaseDto {
+public class ResponseEntity extends BaseDto {
 	
-	private T data;
+	private Object data;
 
-	public T getData() {
+	public Object getData() {
 		return data;
 	}
 
-	public void setData(T data) {
+	public void setData(Object data) {
 		this.data = data;
 	}
 	

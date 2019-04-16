@@ -18,8 +18,8 @@ public class LoginController {
     private LoginService loginService;
 
     @GetMapping("/user/api/list")
-    public ResponseEntity<List<AccountPO>> list() {
-        ResponseEntity<List<AccountPO>> result = new ResponseEntity<List<AccountPO>>();
+    public ResponseEntity list() {
+        ResponseEntity result = new ResponseEntity();
         List<AccountPO> list = loginService.list();
         result.setCode(200);
         result.setMessage("OK");
