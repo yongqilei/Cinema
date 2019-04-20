@@ -5,12 +5,8 @@ import java.io.IOException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
-import com.movie.pncinema.utils.captcha.Captcha;
-import com.movie.pncinema.utils.captcha.GifCaptcha;
-import com.movie.pncinema.utils.captcha.SpecCaptcha;
-import com.movie.pncinema.utils.redis.RedisTemplateUtils;
+import com.movie.pncinema.utils.redis.RedisUtils;
 
 /**
  * 图形验证码工具类
@@ -208,7 +204,7 @@ public class CaptchaUtil {
 //        // 将sessionId设置到response头中
 //        response.addHeader("sessionId", session.getId());
 //        session.setAttribute(SESSION_KEY, captcha.text().toLowerCase());
-        RedisTemplateUtils.set("verifyCode", captcha.text().toLowerCase(), 2 * 60L);
+        RedisUtils.set("verifyCode", captcha.text().toLowerCase(), 2 * 60L);
         captcha.out(response.getOutputStream());
     }
 
