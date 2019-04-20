@@ -11,6 +11,12 @@
 		<result property="loginTime" column="LOGIN_TIME" jdbcType="TIMESTAMP"/>
 	</resultMap>
 	<select id="list" resultMap="account">
-		SELECT * FROM ACCOUNT
+		SELECT ID, TEL, EMAIL
+		  FROM ACCOUNT
+	</select>
+	<select id="selectByUsername" resultMap="account">
+		SELECT ID, TEL, EMAIL
+		  FROM ACCOUNT
+		 WHERE USERNAME = #{username}
 	</select>
 </mapper>

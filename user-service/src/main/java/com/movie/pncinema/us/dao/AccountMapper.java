@@ -10,5 +10,9 @@ import com.movie.pncinema.user.api.entity.po.AccountPO;
 public interface AccountMapper {
 
 	List<AccountPO> list();
+
+	AccountPO selectByUsername(String username);
+
+	AccountPO findByEmail(String email);
 	
 }
